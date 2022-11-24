@@ -29,8 +29,8 @@ out/
 /nbdist/
 /.nb-gradle/
 /node_modules/
-/support/
-/fixtures/
+/support #
+/fixtures #
 
 
 ### Package Files ###
