@@ -1,0 +1,20 @@
+{
+  "name": "7.6-cypress1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:cypress": "cypress open --browser chrome",
+    "test:allHeaded": "cypress run --headed --browser chrome",
+    "test:allHeadless": "npx cypress run --headless -b chrome",
+    "test:allHeadedEdge": "cypress run --headed --browser edge",
+    "test:spec": "cypress run --headed --browser edge --spec cypress/e2e/booksAdd.cy.js",
+    "test:macbook13":"cypress open --browser chrome --config viewportWidth=1280,viewportHeight=800",
+    "test:iphone-xr":"cypress open --browser chrome --config viewportWidth=414,viewportHeight=896"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  },
+  "description": ""
+}
